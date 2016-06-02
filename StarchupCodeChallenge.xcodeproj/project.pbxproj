@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13AF44EB1D008E220088C53C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF44EA1D008E220088C53C /* main.m */; };
+		13AF44EE1D008E220088C53C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF44ED1D008E220088C53C /* AppDelegate.m */; };
+		13AF44F11D008E220088C53C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF44F01D008E220088C53C /* ViewController.m */; };
+		13AF44F41D008E220088C53C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13AF44F21D008E220088C53C /* Main.storyboard */; };
+		13AF44F61D008E220088C53C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AF44F51D008E220088C53C /* Assets.xcassets */; };
+		13AF44F91D008E220088C53C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13AF44F71D008E220088C53C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13AF44E61D008E220088C53C /* StarchupCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarchupCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13AF44EA1D008E220088C53C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13AF44EC1D008E220088C53C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13AF44ED1D008E220088C53C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13AF44EF1D008E220088C53C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13AF44F01D008E220088C53C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13AF44F31D008E220088C53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13AF44F51D008E220088C53C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13AF44F81D008E220088C53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13AF44FA1D008E220088C53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13AF44E31D008E220088C53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13AF44DD1D008E220088C53C = {
+			isa = PBXGroup;
+			children = (
+				13AF44E81D008E220088C53C /* StarchupCodeChallenge */,
+				13AF44E71D008E220088C53C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13AF44E71D008E220088C53C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13AF44E61D008E220088C53C /* StarchupCodeChallenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13AF44E81D008E220088C53C /* StarchupCodeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				13AF44EC1D008E220088C53C /* AppDelegate.h */,
+				13AF44ED1D008E220088C53C /* AppDelegate.m */,
+				13AF44EF1D008E220088C53C /* ViewController.h */,
+				13AF44F01D008E220088C53C /* ViewController.m */,
+				13AF44F21D008E220088C53C /* Main.storyboard */,
+				13AF44F51D008E220088C53C /* Assets.xcassets */,
+				13AF44F71D008E220088C53C /* LaunchScreen.storyboard */,
+				13AF44FA1D008E220088C53C /* Info.plist */,
+				13AF44E91D008E220088C53C /* Supporting Files */,
+			);
+			path = StarchupCodeChallenge;
+			sourceTree = "<group>";
+		};
+		13AF44E91D008E220088C53C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13AF44EA1D008E220088C53C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13AF44E51D008E220088C53C /* StarchupCodeChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13AF44FD1D008E220088C53C /* Build configuration list for PBXNativeTarget "StarchupCodeChallenge" */;
+			buildPhases = (
+				13AF44E21D008E220088C53C /* Sources */,
+				13AF44E31D008E220088C53C /* Frameworks */,
+				13AF44E41D008E220088C53C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarchupCodeChallenge;
+			productName = StarchupCodeChallenge;
+			productReference = 13AF44E61D008E220088C53C /* StarchupCodeChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13AF44DE1D008E220088C53C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JJones;
+				TargetAttributes = {
+					13AF44E51D008E220088C53C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 13AF44E11D008E220088C53C /* Build configuration list for PBXProject "StarchupCodeChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13AF44DD1D008E220088C53C;
+			productRefGroup = 13AF44E71D008E220088C53C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13AF44E51D008E220088C53C /* StarchupCodeChallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13AF44E41D008E220088C53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AF44F91D008E220088C53C /* LaunchScreen.storyboard in Resources */,
+				13AF44F61D008E220088C53C /* Assets.xcassets in Resources */,
+				13AF44F41D008E220088C53C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13AF44E21D008E220088C53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AF44F11D008E220088C53C /* ViewController.m in Sources */,
+				13AF44EE1D008E220088C53C /* AppDelegate.m in Sources */,
+				13AF44EB1D008E220088C53C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13AF44F21D008E220088C53C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13AF44F31D008E220088C53C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13AF44F71D008E220088C53C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13AF44F81D008E220088C53C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13AF44FB1D008E220088C53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13AF44FC1D008E220088C53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13AF44FE1D008E220088C53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarchupCodeChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile-Makers.StarchupCodeChallenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13AF44FF1D008E220088C53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarchupCodeChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile-Makers.StarchupCodeChallenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13AF44E11D008E220088C53C /* Build configuration list for PBXProject "StarchupCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13AF44FB1D008E220088C53C /* Debug */,
+				13AF44FC1D008E220088C53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13AF44FD1D008E220088C53C /* Build configuration list for PBXNativeTarget "StarchupCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13AF44FE1D008E220088C53C /* Debug */,
+				13AF44FF1D008E220088C53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13AF44DE1D008E220088C53C /* Project object */;
+}
