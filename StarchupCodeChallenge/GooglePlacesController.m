@@ -61,7 +61,11 @@
                           options:kNilOptions error:&error];
     
     if (!error) {
-        NSArray *pageResults = json[@"results"];
+        NSArray *pageResults = [NSArray new];
+        
+        if (json[@"results"]) {
+            pageResults = json[@"results"];
+        }
         
         if (json[@"next_page_token"] || [json[@"status"] isEqualToString:@"INVALID_REQUEST"]) {
             if (json[@"next_page_token"]) {
@@ -84,28 +88,28 @@
     NSArray *laundromats = [[NSArray alloc] init];
     for (NSDictionary* dictionary in results) {
         
-        NSDictionary * coordinates = dictionary[@"geometry"][@"location"];
-        NSNumber* latitude = coordinates[@"lat"];
-        NSNumber* longitude = coordinates[@"lng"];
-        CLLocation *location = [[CLLocation alloc] initWithLatitude:latitude.doubleValue longitude:longitude.doubleValue];
-        
-        LaundryBusiness * laundry = [[LaundryBusiness alloc] init];
-        if (dictionary[@"name"]) {
-            laundry.name = dictionary[@"name"];
-        } else {
-            laundry.name = @"No Name";
+        if (dictionary[@"geometry"][@"location"]) {
+            NSDictionary * coordinates = dictionary[@"geometry"][@"location"];
+            NSNumber* latitude = coordinates[@"lat"];
+            NSNumber* longitude = coordinates[@"lng"];
+            CLLocation *location = [[CLLocation alloc] initWithLatitude:latitude.doubleValue longitude:longitude.doubleValue];
+            
+            LaundryBusiness * laundry = [[LaundryBusiness alloc] init];
+            if (dictionary[@"name"]) {
+                laundry.name = dictionary[@"name"];
+            } else {
+                laundry.name = @"No Name";
+            }
+            if (dictionary[@"vicinity"]) {
+                laundry.vicinity = dictionary[@"vicinity"];
+            } else {
+                laundry.vicinity = @"No Address Information";
+            }
+            laundry.location = location;
+            
+            laundromats = [laundromats arrayByAddingObject:laundry];
+            
         }
-        if (dictionary[@"vicinity"]) {
-            laundry.vicinity = dictionary[@"vicinity"];
-        } else {
-            laundry.vicinity = @"No Address Information";
-        }
-        if (dictionary[@"icon"]) {
-            laundry.icon = dictionary[@"icon"];
-        }
-        laundry.location = location;
-        
-        laundromats = [laundromats arrayByAddingObject:laundry];
     }
     
     [self.delegate finishedFetchingLaundromats:laundromats];

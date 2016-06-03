@@ -14,5 +14,4 @@
 @property NSString * name;
 @property CLLocation * location;
 @property NSString * vicinity;
-@property NSString * icon;
 @end

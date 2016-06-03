@@ -69,6 +69,7 @@
         [self.activityIndicator startAnimating];
         [self.googleAPIController fetchGooglePlacesFromLocation:self.userLocation];
         [self.mapView setCenterCoordinate:self.userLocation.coordinate zoomLevel:11 animated:true];
+        [self.mapView setShowsUserLocation:true];
         
         CLGeocoder *geocoder = [[CLGeocoder alloc] init];
         [geocoder reverseGeocodeLocation:self.userLocation completionHandler:^(NSArray<CLPlacemark *> * _Nullable placemarks, NSError * _Nullable error) {
@@ -82,14 +83,21 @@
                 self.laundryCityLabel.text = [NSString stringWithFormat:@"Laundromats in %@",self.cityString];
             }
         }];
-
     });
     [self.locationManager stopUpdatingLocation];
 }
 
+#pragma mark - MapBox Methods
 
 -(BOOL)mapView:(MGLMapView *)mapView annotationCanShowCallout:(id<MGLAnnotation>)annotation {
     return true;
+}
+
+
+-(UIView *)mapView:(MGLMapView *)mapView leftCalloutAccessoryViewForAnnotation:(id<MGLAnnotation>)annotation {
+    UIImageView * imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"laundryImage"]];
+    imageView.frame = CGRectMake(0, 0, 50, 50);
+    return imageView;
 }
 
 #pragma mark - Segmented Control
@@ -149,7 +157,7 @@
     LaundryBusiness * business = self.laundryArray[indexPath.row];
     cell.textLabel.text = business.name;
     cell.detailTextLabel.text = business.vicinity;
-    
+    cell.imageView.image = [UIImage imageNamed:@"laundryImage"];
     return cell;
 }
 
@@ -174,7 +182,7 @@
         MGLPointAnnotation *annotation = [[MGLPointAnnotation alloc] init];
         annotation.coordinate = laundry.location.coordinate;
         annotation.title = laundry.name;
-        annotation.subtitle = @"Subtitle";
+        annotation.subtitle = laundry.vicinity;
         [self.mapView addAnnotation:annotation];
     }
 }
@@ -188,7 +196,6 @@
     [alert addAction:okay];
     [alert.view setNeedsLayout];
     [self presentViewController:alert animated:true completion:nil];
-    
 }
 
 -(void)finishedGettingLocationFromCity:(CLLocation *)cityLocation name:(NSString *)cityName{

@@ -18,6 +18,7 @@
 		13AF45091D00BD9C0088C53C /* GooglePlacesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF45081D00BD9C0088C53C /* GooglePlacesController.m */; };
 		13AF450C1D00BE560088C53C /* LaundryBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF450B1D00BE560088C53C /* LaundryBusiness.m */; };
 		13AF45121D01D77A0088C53C /* Spotlight-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 13AF45111D01D77A0088C53C /* Spotlight-icon.png */; };
+		13AF45141D02487C0088C53C /* laundryImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 13AF45131D02487C0088C53C /* laundryImage.png */; };
 		53ABA5956890102308FCE0EE /* libPods-StarchupCodeChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7354BEDF61901BC5FA38A655 /* libPods-StarchupCodeChallenge.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		13AF450A1D00BE560088C53C /* LaundryBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaundryBusiness.h; sourceTree = "<group>"; };
 		13AF450B1D00BE560088C53C /* LaundryBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaundryBusiness.m; sourceTree = "<group>"; };
 		13AF45111D01D77A0088C53C /* Spotlight-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spotlight-icon.png"; sourceTree = SOURCE_ROOT; };
+		13AF45131D02487C0088C53C /* laundryImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laundryImage.png; sourceTree = SOURCE_ROOT; };
 		7354BEDF61901BC5FA38A655 /* libPods-StarchupCodeChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StarchupCodeChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B803822B1216FA7D76FE7BA /* Pods-StarchupCodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarchupCodeChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarchupCodeChallenge/Pods-StarchupCodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		9ED0CE2D4F862F551EE7664C /* Pods-StarchupCodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarchupCodeChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarchupCodeChallenge/Pods-StarchupCodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				13AF450F1D00C52F0088C53C /* Model */,
 				13AF450E1D00C5250088C53C /* Controller */,
 				13AF44F51D008E220088C53C /* Assets.xcassets */,
+				13AF45131D02487C0088C53C /* laundryImage.png */,
 				13AF45111D01D77A0088C53C /* Spotlight-icon.png */,
 				13AF44FA1D008E220088C53C /* Info.plist */,
 				13AF44E91D008E220088C53C /* Supporting Files */,
@@ -220,6 +223,7 @@
 				13AF45121D01D77A0088C53C /* Spotlight-icon.png in Resources */,
 				13AF44F61D008E220088C53C /* Assets.xcassets in Resources */,
 				13AF44F41D008E220088C53C /* Main.storyboard in Resources */,
+				13AF45141D02487C0088C53C /* laundryImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
