@@ -1,15 +1,16 @@
 //
-//  ViewController.h
+//  LaundryBusiness.m
 //  StarchupCodeChallenge
 //
 //  Created by Jonathan Jones on 6/2/16.
 //  Copyright © 2016 JJones. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "LaundryBusiness.h"
+#import <CoreLocation/CoreLocation.h>
 
-@interface ViewController : UIViewController
+@implementation LaundryBusiness
+
 
 
 @end
-

@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>MGLMapboxAccessToken</key>
+	<string>pk.eyJ1Ijoic3RhcmNodXAiLCJhIjoiY2lveWd1ZGZlMDF0anU5bTRya3EzbTJuOCJ9.WW1snz2lbHUMB4lH60syDw</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>To help find laundry services near you!</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>

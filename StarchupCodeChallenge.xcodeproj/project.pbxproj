@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		13AF44EB1D008E220088C53C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF44EA1D008E220088C53C /* main.m */; };
 		13AF44EE1D008E220088C53C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF44ED1D008E220088C53C /* AppDelegate.m */; };
-		13AF44F11D008E220088C53C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF44F01D008E220088C53C /* ViewController.m */; };
 		13AF44F41D008E220088C53C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13AF44F21D008E220088C53C /* Main.storyboard */; };
 		13AF44F61D008E220088C53C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AF44F51D008E220088C53C /* Assets.xcassets */; };
 		13AF44F91D008E220088C53C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13AF44F71D008E220088C53C /* LaunchScreen.storyboard */; };
+		13AF45021D009A9C0088C53C /* ResultsDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF45011D009A9C0088C53C /* ResultsDisplayViewController.m */; };
+		13AF45041D009BEE0088C53C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AF45031D009BEE0088C53C /* MapKit.framework */; };
+		13AF45061D00A2110088C53C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AF45051D00A2110088C53C /* CoreLocation.framework */; };
+		13AF45091D00BD9C0088C53C /* GooglePlacesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF45081D00BD9C0088C53C /* GooglePlacesController.m */; };
+		13AF450C1D00BE560088C53C /* LaundryBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF450B1D00BE560088C53C /* LaundryBusiness.m */; };
+		13AF45121D01D77A0088C53C /* Spotlight-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 13AF45111D01D77A0088C53C /* Spotlight-icon.png */; };
+		53ABA5956890102308FCE0EE /* libPods-StarchupCodeChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7354BEDF61901BC5FA38A655 /* libPods-StarchupCodeChallenge.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,22 @@
 		13AF44EA1D008E220088C53C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		13AF44EC1D008E220088C53C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13AF44ED1D008E220088C53C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		13AF44EF1D008E220088C53C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		13AF44F01D008E220088C53C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		13AF44F31D008E220088C53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13AF44F51D008E220088C53C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13AF44F81D008E220088C53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13AF44FA1D008E220088C53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13AF45001D009A9C0088C53C /* ResultsDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsDisplayViewController.h; sourceTree = "<group>"; };
+		13AF45011D009A9C0088C53C /* ResultsDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsDisplayViewController.m; sourceTree = "<group>"; };
+		13AF45031D009BEE0088C53C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		13AF45051D00A2110088C53C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		13AF45071D00BD9C0088C53C /* GooglePlacesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooglePlacesController.h; sourceTree = "<group>"; };
+		13AF45081D00BD9C0088C53C /* GooglePlacesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooglePlacesController.m; sourceTree = "<group>"; };
+		13AF450A1D00BE560088C53C /* LaundryBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaundryBusiness.h; sourceTree = "<group>"; };
+		13AF450B1D00BE560088C53C /* LaundryBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaundryBusiness.m; sourceTree = "<group>"; };
+		13AF45111D01D77A0088C53C /* Spotlight-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spotlight-icon.png"; sourceTree = SOURCE_ROOT; };
+		7354BEDF61901BC5FA38A655 /* libPods-StarchupCodeChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StarchupCodeChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B803822B1216FA7D76FE7BA /* Pods-StarchupCodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarchupCodeChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarchupCodeChallenge/Pods-StarchupCodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		9ED0CE2D4F862F551EE7664C /* Pods-StarchupCodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarchupCodeChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarchupCodeChallenge/Pods-StarchupCodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13AF45061D00A2110088C53C /* CoreLocation.framework in Frameworks */,
+				13AF45041D009BEE0088C53C /* MapKit.framework in Frameworks */,
+				53ABA5956890102308FCE0EE /* libPods-StarchupCodeChallenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +63,8 @@
 			children = (
 				13AF44E81D008E220088C53C /* StarchupCodeChallenge */,
 				13AF44E71D008E220088C53C /* Products */,
+				9124D4AE6A68629B237ED9E3 /* Pods */,
+				3ED9673E7BCDE3B6172F9471 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +81,12 @@
 			children = (
 				13AF44EC1D008E220088C53C /* AppDelegate.h */,
 				13AF44ED1D008E220088C53C /* AppDelegate.m */,
-				13AF44EF1D008E220088C53C /* ViewController.h */,
-				13AF44F01D008E220088C53C /* ViewController.m */,
-				13AF44F21D008E220088C53C /* Main.storyboard */,
+				13AF45101D00C5560088C53C /* Storyboards */,
+				13AF450D1D00C5120088C53C /* View Controllers */,
+				13AF450F1D00C52F0088C53C /* Model */,
+				13AF450E1D00C5250088C53C /* Controller */,
 				13AF44F51D008E220088C53C /* Assets.xcassets */,
-				13AF44F71D008E220088C53C /* LaunchScreen.storyboard */,
+				13AF45111D01D77A0088C53C /* Spotlight-icon.png */,
 				13AF44FA1D008E220088C53C /* Info.plist */,
 				13AF44E91D008E220088C53C /* Supporting Files */,
 			);
@@ -79,6 +101,61 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		13AF450D1D00C5120088C53C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				13AF45001D009A9C0088C53C /* ResultsDisplayViewController.h */,
+				13AF45011D009A9C0088C53C /* ResultsDisplayViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		13AF450E1D00C5250088C53C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				13AF45071D00BD9C0088C53C /* GooglePlacesController.h */,
+				13AF45081D00BD9C0088C53C /* GooglePlacesController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		13AF450F1D00C52F0088C53C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13AF450A1D00BE560088C53C /* LaundryBusiness.h */,
+				13AF450B1D00BE560088C53C /* LaundryBusiness.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		13AF45101D00C5560088C53C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				13AF44F71D008E220088C53C /* LaunchScreen.storyboard */,
+				13AF44F21D008E220088C53C /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		3ED9673E7BCDE3B6172F9471 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13AF45051D00A2110088C53C /* CoreLocation.framework */,
+				13AF45031D009BEE0088C53C /* MapKit.framework */,
+				7354BEDF61901BC5FA38A655 /* libPods-StarchupCodeChallenge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9124D4AE6A68629B237ED9E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9ED0CE2D4F862F551EE7664C /* Pods-StarchupCodeChallenge.debug.xcconfig */,
+				9B803822B1216FA7D76FE7BA /* Pods-StarchupCodeChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13AF44FD1D008E220088C53C /* Build configuration list for PBXNativeTarget "StarchupCodeChallenge" */;
 			buildPhases = (
+				6E8072E0425C71AE4CF979EA /* 📦 Check Pods Manifest.lock */,
 				13AF44E21D008E220088C53C /* Sources */,
 				13AF44E31D008E220088C53C /* Frameworks */,
 				13AF44E41D008E220088C53C /* Resources */,
+				6877EB651D0592BDCCAF2455 /* 📦 Embed Pods Frameworks */,
+				0E9EE3803FA2C66DDACA245C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13AF44F91D008E220088C53C /* LaunchScreen.storyboard in Resources */,
+				13AF45121D01D77A0088C53C /* Spotlight-icon.png in Resources */,
 				13AF44F61D008E220088C53C /* Assets.xcassets in Resources */,
 				13AF44F41D008E220088C53C /* Main.storyboard in Resources */,
 			);
@@ -144,12 +225,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E9EE3803FA2C66DDACA245C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarchupCodeChallenge/Pods-StarchupCodeChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6877EB651D0592BDCCAF2455 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarchupCodeChallenge/Pods-StarchupCodeChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E8072E0425C71AE4CF979EA /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		13AF44E21D008E220088C53C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13AF44F11D008E220088C53C /* ViewController.m in Sources */,
+				13AF45091D00BD9C0088C53C /* GooglePlacesController.m in Sources */,
+				13AF45021D009A9C0088C53C /* ResultsDisplayViewController.m in Sources */,
+				13AF450C1D00BE560088C53C /* LaundryBusiness.m in Sources */,
 				13AF44EE1D008E220088C53C /* AppDelegate.m in Sources */,
 				13AF44EB1D008E220088C53C /* main.m in Sources */,
 			);
@@ -261,6 +392,7 @@
 		};
 		13AF44FE1D008E220088C53C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED0CE2D4F862F551EE7664C /* Pods-StarchupCodeChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StarchupCodeChallenge/Info.plist;
@@ -272,6 +404,7 @@
 		};
 		13AF44FF1D008E220088C53C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B803822B1216FA7D76FE7BA /* Pods-StarchupCodeChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StarchupCodeChallenge/Info.plist;
@@ -300,6 +433,7 @@
 				13AF44FF1D008E220088C53C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
