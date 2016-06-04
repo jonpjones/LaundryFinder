@@ -6,7 +6,6 @@ target 'StarchupCodeChallenge' do
   # use_frameworks!
 
   # Pods for StarchupCodeChallenge
-pod 'GoogleMaps'
 pod 'Mapbox-iOS-SDK', '~> 3.2.2'
 
 end

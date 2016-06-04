@@ -13,7 +13,6 @@
 		13AF44F61D008E220088C53C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AF44F51D008E220088C53C /* Assets.xcassets */; };
 		13AF44F91D008E220088C53C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13AF44F71D008E220088C53C /* LaunchScreen.storyboard */; };
 		13AF45021D009A9C0088C53C /* ResultsDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF45011D009A9C0088C53C /* ResultsDisplayViewController.m */; };
-		13AF45041D009BEE0088C53C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AF45031D009BEE0088C53C /* MapKit.framework */; };
 		13AF45061D00A2110088C53C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AF45051D00A2110088C53C /* CoreLocation.framework */; };
 		13AF45091D00BD9C0088C53C /* GooglePlacesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF45081D00BD9C0088C53C /* GooglePlacesController.m */; };
 		13AF450C1D00BE560088C53C /* LaundryBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF450B1D00BE560088C53C /* LaundryBusiness.m */; };
@@ -52,7 +51,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				13AF45061D00A2110088C53C /* CoreLocation.framework in Frameworks */,
-				13AF45041D009BEE0088C53C /* MapKit.framework in Frameworks */,
 				53ABA5956890102308FCE0EE /* libPods-StarchupCodeChallenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
